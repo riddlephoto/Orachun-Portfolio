@@ -1,0 +1,74 @@
+.Main_Profile {
+    /* transform-style: preserve-3d; */
+    perspective: 1000px;
+}
+
+.Main_Profile > img {
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.Main_Profile > img:nth-child(2) {
+    transform: rotateY(180deg);
+}
+
+.Main_Profile:hover  > img:nth-child(2) {
+    transform: rotateY(0deg);
+}
+
+.Main_Profile:hover > img:nth-child(1) {
+    transform: rotateY(-180deg);
+}
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .Sub_Profile img {
+    animation: 4s bounce infinite;
+    animation-timing-function: linear;
+  }
+  
+  .Sub_Profile img:nth-child(2) {
+    left: 3px ;
+  }
+
+  .Sub_Profile img:nth-child(3) {
+    bottom: -40px;
+  }
+
+  .Sub_Profile img:nth-child(4) {
+    right: -2.5rem;
+  }
+
+  @media screen and (max-width:900px) {
+    .Main_Profile > img {
+      height: 80%;
+      top: 10%;
+      left: 10%;
+      bottom: 10%;
+      right: 10%;
+    }
+    .Sub_Profile img {
+      height: 22%;
+    }
+    .Sub_Profile img:nth-child(2) {
+      left: 1rem; 
+    }
+    .Sub_Profile img:nth-child(3) {
+      bottom: 0;
+    }
+    .Sub_Profile img:nth-child(4) {
+      right: 0;
+    }
+  }

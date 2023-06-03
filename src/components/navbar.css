@@ -1,0 +1,103 @@
+.Navbar_Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.Navbar_Container h2{
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: var(--color-p2);
+}
+
+.Navbar_List {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar_List li {
+    margin-left: 7rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    color: var(--color-p2);
+    position: relative;
+}
+
+.Navbar_List li::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: var(--color-p4);
+    transition: 0.5s;
+    height: 4px;
+    width: 0;
+    top: 1.2rem;
+    content: '';
+}
+.Navbar_List li:hover::after {
+    width: 100%;
+}
+.Navbar_Menu_Container {
+    display: none;
+    position: relative;
+}
+
+.Navbar_Menu_Container svg{
+    cursor: pointer;
+}
+
+.Navbar_Menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    text-align: end;
+    background: var(--color-p2);
+    padding: 1.5rem 2.5rem;
+    border-radius: 12px;
+    border: 5px solid var(--color-p4);
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 2;
+}
+
+.Navbar_Menu li {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 18px;
+    color: var(--color-p4);
+    list-style: none;
+    margin: 1rem 0;
+
+}
+
+@media screen and (max-width: 1050px) {
+    .Navbar_List li {
+        margin-left: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Navbar_Container{
+        margin-bottom: 3rem;
+    }
+    .Navbar_List {
+        display: none;
+    }
+    .Navbar_Menu_Container {
+        display: flex;
+    }
+}
+
+

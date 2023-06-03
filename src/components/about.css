@@ -1,0 +1,27 @@
+.Image_Scroll {
+    display: flex;
+    grid-auto-flow: column;
+    gap: 2%;
+    overflow-x: auto;
+}
+
+.Image_Scroll img {
+    width: 32%;
+    margin-bottom: 20px;
+    border: 5px solid var(--color-p3);
+}
+
+
+@media screen and (max-width: 500px) {
+    /* .Image_Scroll {
+        gap: 0;
+    } */
+    .Image_Scroll::-webkit-scrollbar {
+        display: none;
+    }
+    .Image_Scroll img {
+        width: 96%;
+        margin-bottom: 20px;
+        border: 5px solid var(--color-p3);
+    }
+}
