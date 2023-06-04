@@ -23,6 +23,10 @@ a {
   color: unset;
 }
 
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
 
 .slide-bottom {
 	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
