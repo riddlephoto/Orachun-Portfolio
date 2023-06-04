@@ -5,7 +5,6 @@ import hobby from "../assets/Giant swing.jpg";
 import { About_P1, About_P2, About_P3, About_P4, About_P5 } from "./content";
 import "./about.css";
 import { city, chula, river, star, dam, market } from "../assets";
-import Footer from "./Footer";
 
 const About = () => {
   const contentStyles = {
@@ -29,7 +28,6 @@ const About = () => {
     <Box>
       <Typography sx={headerStyles}>About Me</Typography>
       <Typography sx={contentStyles}>
-        About Me
         {About_P1}
       </Typography>
       <Stack

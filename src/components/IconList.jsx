@@ -8,7 +8,7 @@ import GithubIcon from "@mui/icons-material/GitHub";
 const IconList = () => {
   return (
     <Stack direction="row" alignItems="center" justifyContent={{xs: "space-evenly", md:"start"}}>
-      <a href="https://www.facebook.com/pongchun.chun/">
+      <a href="https://www.facebook.com/pongchun.chun/"  target="_blank" rel="noopener noreferrer">
         <FacebookIcon
           sx={{
             fontSize: "44px",
@@ -18,7 +18,7 @@ const IconList = () => {
           }}
         />
       </a>
-      <a href="https://github.com/riddlephoto">
+      <a href="https://github.com/riddlephoto"  target="_blank" rel="noopener noreferrer">
         <GithubIcon
           sx={{
             fontSize: "40px",
@@ -28,7 +28,7 @@ const IconList = () => {
           }}
         />
       </a>
-      <a href="mailto:orachun_ruengdej@outlook.com">
+      <a href="mailto:orachun_ruengdej@outlook.com"  target="_blank" rel="noopener noreferrer">
         <EmailIcon
           sx={{
             fontSize: "44px",
@@ -39,7 +39,7 @@ const IconList = () => {
           }}
         />
       </a>
-      <a href="https://www.linkedin.com/in/orachun-ruengdej/">
+      <a href="https://www.linkedin.com/in/orachun-ruengdej/"  target="_blank" rel="noopener noreferrer">
         <LinkedinIcon
           sx={{
             fontSize: "46px",

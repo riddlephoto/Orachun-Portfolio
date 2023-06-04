@@ -43,29 +43,35 @@ const Home = () => {
           This portfolio has been created to enhance my technical skills and
           demonstrate my dedication to the field of front-end development.
         </Typography>
-        <Box display="flex" justifyContent={{xs:"center", md:"start"}}>
-          <Button
-            variant="contained"
-            sx={{
-              background: "rgba(255, 123, 81, 0.8)",
-              borderRadius: "50px",
-              textTransform: "Inherit",
-              height: "56px",
-              "&:hover": {
-                background: "rgba(255, 123, 81)",
-              },
-              marginBottom: "38px",
-            }}
+        <Box display="flex" justifyContent={{ xs: "center", md: "start" }}>
+          <a
+            href="https://drive.google.com/file/d/1-cs68EjIWcJW3GRg6MD-TFV1XY10qogJ/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Typography
-              color="#fff"
-              fontFamily="var(--font-family)"
-              fontSize="24px"
-              fontWeight="700"
+            <Button
+              variant="contained"
+              sx={{
+                background: "rgba(255, 123, 81, 0.8)",
+                borderRadius: "50px",
+                textTransform: "Inherit",
+                height: "56px",
+                "&:hover": {
+                  background: "rgba(255, 123, 81)",
+                },
+                marginBottom: "38px",
+              }}
             >
-              Download My Resume
-            </Typography>
-          </Button>
+              <Typography
+                color="#fff"
+                fontFamily="var(--font-family)"
+                fontSize="24px"
+                fontWeight="700"
+              >
+                Download My Resume
+              </Typography>
+            </Button>
+          </a>
         </Box>
         <IconList />
       </Box>
