@@ -1,6 +1,7 @@
 import React from "react";
 import { Stack, Box, Typography } from "@mui/material";
 import { Project_P1, Project_P3 } from "./content";
+import LaunchIcon from "@mui/icons-material/Launch";
 
 import {
   HTML,
@@ -17,6 +18,7 @@ import {
   react,
   Vscode,
   figma,
+  background,
 } from "../assets";
 
 import "./project.css";
@@ -28,7 +30,7 @@ const Project = () => {
     fontSize: { xs: "24px", md: "32px" },
     fontWeight: "700",
     marginBottom: "34px",
-    textAlign: {xs:"center", md: "start"}
+    textAlign: { xs: "center", md: "start" },
   };
   const contentStyles = {
     color: "var(--color-p2)",
@@ -79,7 +81,13 @@ const Project = () => {
         </Box>
         <Box className="Tool_Container">
           <Typography sx={subHeaderStyles}>Selected Tools</Typography>
-          <Stack className="Tool_List" direction="row" gap={5} flexWrap="wrap" justifyContent="center">
+          <Stack
+            className="Tool_List"
+            direction="row"
+            gap={5}
+            flexWrap="wrap"
+            justifyContent="center"
+          >
             <img src={react} alt="React"></img>
             <img src={HTML} alt="HTML"></img>
             <img src={CSS} alt="CSS"></img>
@@ -89,7 +97,11 @@ const Project = () => {
           </Stack>
         </Box>
       </Stack>
-      <Stack direction={{ xs: "column", md: "row" }} gap="2rem" alignItems="center">
+      <Stack
+        direction={{ xs: "column", md: "row" }}
+        gap="2rem"
+        alignItems="center"
+      >
         <Box className="Result_Picture">
           <img src={Home} alt="Homepage" />
           <img src={Constraint} alt="constraint" />
@@ -97,9 +109,30 @@ const Project = () => {
           <img src={Tail} alt="Tail" />
           <img src={CgPos} alt="CgPos" />
           <img src={Preview} alt="Preview" />
+          <img src={background} alt="Background" />
         </Box>
         <Box className="Result_Content">
-          <Typography sx={subHeaderStyles}>Results</Typography>
+          <Box
+            className="Result_Header"
+            display="flex"
+            alignItems="center"
+            gap="5px"
+          >
+            <Typography sx={subHeaderStyles}>Results</Typography>
+            <a
+              href="https://github.com/riddlephoto/RC-Aircraft-Design-Website"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LaunchIcon
+                sx={{
+                  marginBottom: "34px",
+                  fontSize: "25px",
+                  color: "var(--color-p2)",
+                }}
+              />
+            </a>
+          </Box>
           <Typography sx={contentStyles}>{Project_P3}</Typography>
           <ul className="Result_List">
             <li>

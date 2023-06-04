@@ -20,6 +20,7 @@ export {default as Next} from './nextjs_logo.png';
 export {default as Vercel} from './vercel.png';
 export {default as Vscode} from './VScode.png'
 export {default as figma} from './figma.png'
+export {default as background} from './background.png'
 
 
 
