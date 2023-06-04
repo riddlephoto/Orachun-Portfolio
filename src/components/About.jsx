@@ -36,7 +36,7 @@ const About = () => {
         direction={{ xs: "column", md: "row" }}
         alignItems="center"
         gap="50px"
-        marginBottom={{ xs: "0", md: "92px" }}
+        marginBottom={{ xs: "0", md: "34px" }}
       >
         <img src={profile} alt="profile" height={460} />
         <Box>

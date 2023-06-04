@@ -1,0 +1,84 @@
+.Features_List {
+    margin: 0;
+    padding: 0;
+}
+
+.Features_List li {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--color-p2);
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.Features_List span {
+    font-weight: 700;
+    color: var(--color-p4);
+}
+
+.Tool_List img {
+    height: 65px;
+}
+
+.Result_List {
+    margin: 0;
+    padding: 0;
+}
+
+.Result_List li {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--color-p2);
+    margin-bottom: 20px;
+    margin-left: 15px;
+    line-height: 25px;
+}
+
+.Result_List span {
+    font-weight: 700;
+    color: var(--color-p4);
+}
+
+.Result_Picture {
+    display: flex;
+    gap: 2%;
+    overflow-x: auto;
+    align-items: center;
+}
+
+.Result_Picture img {
+    width: 47%;
+    height: 47%;
+    margin-bottom: 20px;
+    border: 5px solid var(--color-p3);
+}
+
+.Result_Content {
+    min-width: 50%;
+}
+
+.Result_Picture::-webkit-scrollbar {
+    height: 6px;
+}
+  
+.Result_Picture::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+.Result_Picture::-webkit-scrollbar-thumb {
+    background-color: var(--color-p4);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .Result_List li {
+        font-size: 15px;
+    }
+    .Features_List li {
+        font-size: 15px;
+    }
+    
+}

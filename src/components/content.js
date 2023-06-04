@@ -1,3 +1,5 @@
+import { SkLogo, CuLogo } from "../assets";
+
 export let About_P1 = `If you’re on this page, I assume that you already know my first name. 
 You can call me “Pong” which is my nickname. I am 22 year-old, and I recently graduated with a bachelor 
 of aerospace engineering, Chulalongkorn university.`;
@@ -11,9 +13,47 @@ export let About_P3 = `With interest of the web development, I am specifically p
  have cultivated crucial background throughout my 4th year. Moreover, I apply the knowledge to my senior project, “Conceptual 
  RC Aircraft Design Website”, so that it is capable of delivering results meeting the project requirements as possible.`;
 
- export let About_P4 = `Currently, I am continuing to develop my front-end skills by creating side projects and simultaneously
-  learn new technological stacks in order to handle dynamic users’ requirements in the current era. `;
+export let About_P4 = `Currently, I am continuing to develop my front-end skills by creating side projects and simultaneously
+learn new technological stacks in order to handle dynamic users’ requirements in the current era. `;
 
-  export let About_P5 = `Let’s relax your brain with my hobby, I have taken a photo for many years since my father loves photography,
-   so I learned about photography from him. Personally, I like landscape and cityscape photography. I stopped taking a photo for 3 years 
-   due to COVID-19 pandemic. But currently, I am starting to develop my photography skill again.`
+export let About_P5 = `Let’s relax your brain with my hobby, I have taken a photo for many years since my father loves photography,
+so I learned about photography from him. Personally, I like landscape and cityscape photography. I stopped taking a photo for 3 years 
+due to COVID-19 pandemic. But currently, I am starting to develop my photography skill again.`;
+
+const experiences = [
+  {
+    school: "Suankularb Wittayalai School",
+    date: "2016-2018",
+    icon: SkLogo,
+    points: [
+      `Studied in “Gifted Math Program`,
+      `Awarded first runner-up in the "District Math Project Competition"`,
+      `GPAX: 3.63`,
+    ],
+  },
+  {
+    school: "Chulalongkorn University",
+    date: "2019-2022",
+    icon: CuLogo,
+    points: [
+      `Studied in “Aerospace engineering`,
+      `Participated in the “Thailand Association of Aerospace Engineer (TAAE) Competition`,
+      `Participated in the “Design Build Fly (DBF) Competition`,
+      `Created “Conceptual RC Aircraft Design Website” as a senior project`,
+      `GPAX: 3.30`,
+    ],
+  },
+];
+
+export { experiences };
+
+export let Project_P1 = `In the present day, there are only a few radio-controlled (RC) aircraft design websites; 
+oreover, most of them are difficult to use due to messy user interfaces and content requiring user specific comprehension. 
+herefore, my objective was to design an efficient RC aircraft design website with attractive user interfaces to satisfy the 
+new generation users interested in aircraft design.`;
+
+export let Project_P2 = `After the design was done successfully, the preview of the designed aircraft will be displayed. 
+The left figure is a top view preview illustrating all necessary components, which are wing, tail, and fuselage.`
+
+export let Project_P3 = `The website consists of four pages which are homepage, constraint diagram page, components design page, 
+and theoretical background page.`

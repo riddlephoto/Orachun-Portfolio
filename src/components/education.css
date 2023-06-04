@@ -1,0 +1,28 @@
+.Timeline_Icon {
+    width: 100%;
+    object-fit: contain;
+}
+
+.Education_List li {
+    font-family: var(--font-family);
+    font-size: 20px;
+    color: var(--color-p2);
+    margin-bottom: 20px;
+}
+
+.vertical-timeline-element-title {
+    font-Family: var(--font-family);
+    font-Size: 32px;
+    color: var(--color-p2);
+    margin-Bottom:20px
+}
+
+@media screen and (max-width: 900px) {
+    .vertical-timeline-element-title {
+        font-size: 25px;
+    }
+    .Education_List li {
+        font-size: 15px;
+    }
+    
+}

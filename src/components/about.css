@@ -11,14 +11,26 @@
     border: 5px solid var(--color-p3);
 }
 
+.Image_Scroll::-webkit-scrollbar {
+    height: 6px;
+}
+  
+.Image_Scroll::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+.Image_Scroll::-webkit-scrollbar-thumb {
+    background-color: var(--color-p4);
+    border-radius: 10px;
+}
 
 @media screen and (max-width: 500px) {
     /* .Image_Scroll {
         gap: 0;
     } */
-    .Image_Scroll::-webkit-scrollbar {
+    /* .Image_Scroll::-webkit-scrollbar {
         display: none;
-    }
+    } */
     .Image_Scroll img {
         width: 96%;
         margin-bottom: 20px;
