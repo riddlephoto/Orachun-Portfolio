@@ -5,8 +5,15 @@ import hobby from "../assets/Giant swing.jpg";
 import { About_P1, About_P2, About_P3, About_P4, About_P5 } from "./content";
 import "./about.css";
 import { city, chula, river, star, dam, market } from "../assets";
+import {useSpring, animated} from 'react-spring';
 
 const About = () => {
+
+  const props = useSpring({
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+  });
+
   const contentStyles = {
     color: "var(--color-p2)",
     fontFamily: "var(--font-family)",
@@ -25,7 +32,8 @@ const About = () => {
     textAlign: { xs: "justify", md: "start" },
   };
   return (
-    <Box>
+    
+    <animated.div style={props}>
       <Typography sx={headerStyles}>About Me</Typography>
       <Typography sx={contentStyles}>
         {About_P1}
@@ -62,7 +70,7 @@ const About = () => {
           <img src={chula} alt="chula"/>
         </Box>
       </Stack>
-    </Box>
+    </animated.div>
   );
 };
 
