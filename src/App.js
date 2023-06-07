@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { Home, About, Education, Project, Navbar, Footer } from "./components";
 import { Box } from "@mui/material";
 

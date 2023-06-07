@@ -7,6 +7,8 @@ import { Box, Typography } from "@mui/material";
 
 import "react-vertical-timeline-component/style.min.css";
 
+import { experiences } from "./content";
+
 import "./education.css";
 
 import { SkLogo, CuLogo } from "../assets";

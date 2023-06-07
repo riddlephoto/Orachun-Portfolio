@@ -3,8 +3,6 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
-    position: relative;
-    z-index: 999;
 }
 
 .Navbar_Container h2{
@@ -70,6 +68,7 @@
     position: absolute;
     top: 10px;
     right: 0;
+    z-index: 2;
 }
 
 .Navbar_Menu li {

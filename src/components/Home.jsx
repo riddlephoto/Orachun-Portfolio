@@ -2,11 +2,9 @@ import React from "react";
 import { Box, Stack, Typography, Button } from "@mui/material";
 import HomeProfile from "./HomeProfile";
 import IconList from "./IconList";
-import { Fade } from "react-reveal";
 
 const Home = () => {
   return (
-    <Fade>
     <Stack
       direction="row"
       justifyContent="space-between"
@@ -79,7 +77,6 @@ const Home = () => {
       </Box>
       <HomeProfile />
     </Stack>
-    </Fade>
   );
 };
 
