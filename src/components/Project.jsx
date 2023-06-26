@@ -82,7 +82,7 @@ const Project = () => {
                 <span>graphical illustrations</span>.
               </li>
               <li>
-                <span>Theoretical background</span> is provided for users
+                <span>Theoretical background</span> is provided for users.
               </li>
             </ul>
           </Box>
@@ -127,7 +127,7 @@ const Project = () => {
             >
               <Typography sx={subHeaderStyles}>Results</Typography>
               <a
-                href="https://github.com/riddlephoto/RC-Aircraft-Design-Website"
+                href="https://senior-next-beryl.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -155,7 +155,7 @@ const Project = () => {
               </li>
               <li>
                 <span>Theoretical Background</span>: Provide fundamental theory
-                for users
+                for users.
               </li>
             </ul>
           </Box>
