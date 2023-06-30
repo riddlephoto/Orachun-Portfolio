@@ -7,34 +7,9 @@ import { Box, Typography } from "@mui/material";
 
 import "react-vertical-timeline-component/style.min.css";
 
-import { experiences } from "./content";
-
 import "./education.css";
 
 import { SkLogo, CuLogo } from "../assets";
-
-// const ExperiencesCard = ({ experiences }) => (
-//   <VerticalTimelineElement
-//     contentStyle={{ background: "#1d1836", color: "#fff" }}
-//     contentArrowStyle={{borderRight:"7px solid #232631"}}
-//     date={experiences.date}
-//     iconStyle={{background:"#fff"}}
-//     icon={
-//       <div>
-//         <img className="Timeline_Icon" src={experiences.icon} alt="School" />
-//       </div>
-//     }
-//   >
-//     <div>
-//       <Typography
-//         color="var(--color-p2)"
-//         fontFamily="var(--font-family)"
-//         fontSize="32px"
-//       >{experiences.school}
-//       </Typography>
-//     </div>
-//   </VerticalTimelineElement>
-// );
 
 const Education = () => {
   return (

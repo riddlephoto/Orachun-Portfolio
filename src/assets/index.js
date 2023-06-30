@@ -21,6 +21,13 @@ export {default as Vercel} from './vercel.png';
 export {default as Vscode} from './VScode.png'
 export {default as figma} from './figma.png'
 export {default as background} from './background.png'
+export {default as mui} from './mui.png'
+export {default as cryptohome} from './cryptohome.png'
+export {default as currencylist} from './currencylist.png'
+export {default as cryptodetail} from './crytodetail.png'
+export {default as cryptonews} from './cryptonews.png'
+
+
 
 
 
