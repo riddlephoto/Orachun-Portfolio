@@ -150,7 +150,7 @@ export const cryptoClone =[
     page and cryptocurrency news page.`,
     result: [
       {header: "Homepage", detail: ": Partially display each cryptocurrency page"},
-      {header: "Currency List Page", detail: ": Use to dearch desired cryptocurrency"},
+      {header: "Currency List Page", detail: ": Use to search desired cryptocurrency"},
       {header: "Currency Detail Page", detail: ": Provide crucial data for each crypto"},
       {header: "Crytocurrency News Page", detail: ": Search latest news about desired currency "},
     ]
