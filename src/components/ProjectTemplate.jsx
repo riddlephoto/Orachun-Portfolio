@@ -18,7 +18,7 @@ const projectTemplate = ({
     fontSize: { xs: "24px", md: "32px" },
     fontWeight: "700",
     marginBottom: "34px",
-    textAlign: { xs: "center", md: "start" },
+    textAlign: "start",
   };
   const contentStyles = {
     color: "var(--color-p2)",
