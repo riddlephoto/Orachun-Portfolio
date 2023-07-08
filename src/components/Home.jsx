@@ -52,7 +52,7 @@ const Home = () => {
           </Typography>
           <Box display="flex" justifyContent={{ xs: "center", md: "start" }}>
             <a
-              href="https://drive.google.com/file/d/1uheOZuhhgMLm3ftoQXBjHvgkdVfbTZ2n/view?usp=sharing"
+              href="https://drive.google.com/file/d/1c7rKjfIgC76jocWfmLuuLH3A4HF9iAUV/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
