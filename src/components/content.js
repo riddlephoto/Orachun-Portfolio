@@ -141,7 +141,6 @@ export const cryptoClone =[
     ],
     resultPic: [
       { image: cryptohome },
-      { image: currencylist },
       { image: cryptonews },
       { image: cryptodetail },
     ],
