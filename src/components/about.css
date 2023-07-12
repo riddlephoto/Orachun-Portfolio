@@ -35,5 +35,7 @@
         width: 96%;
         margin-bottom: 20px;
         border: 5px solid var(--color-p3);
+        aspect-ratio: auto;
+
     }
 }
