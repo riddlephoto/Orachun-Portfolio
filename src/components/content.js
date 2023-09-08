@@ -16,8 +16,11 @@ import {
   cryptodetail,
   cryptohome,
   cryptonews,
-  currencylist,
+  tailwind,
   mui,
+  NewsHome,
+  NewsResult,
+  NewsDetail,
 } from "../assets";
 
 export let About_P1 = `If you’re on this page, I assume that you already know my first name. 
@@ -152,6 +155,44 @@ export const cryptoClone =[
       {header: "Currency List Page", detail: ": Use to search desired cryptocurrency"},
       {header: "Currency Detail Page", detail: ": Provide crucial data for each crypto"},
       {header: "Crytocurrency News Page", detail: ": Search latest news about desired currency "},
+    ]
+  }
+]
+export const guardianNews =[
+  {
+    title: "The guardian News Website",
+    introParagraph: `The guardian is one of the great news platform with up-to-date and various section of news.
+    This website was created to enhance the frontend development skills, and API integration from the guardian platform
+    is the primary objective for this project.`,
+    keyFeature: [
+      { detail: "The website reports the news based on GuardianAPI platform" },
+      { detail: "The news can be sorted based on posted period" },
+      {
+        detail:
+          "Users can search news with their desired keywords",
+      },
+      { detail: "Searched results are paginated with infinite scroll" },
+    ],
+    tools: [
+      { image: HTML },
+      { image: JS },
+      { image: react },
+      { image: Vscode },
+      { image: tailwind },
+
+    ],
+    resultPic: [
+      { image: NewsHome },
+      { image: NewsResult },
+      { image: NewsDetail },
+    ],
+    link:"https://front-end-test-liart.vercel.app/",
+    resultParagraph:`The website consist of four main pages including homepage, search result page, news detail
+    page`,
+    result: [
+      {header: "Homepage", detail: ": Partially display each cryptocurrency page"},
+      {header: "Search Result Page", detail: ": shows the result from news keyword"},
+      {header: "News Detail Page", detail: ": Provide detail of the news consisting of paragraph and picture"},
     ]
   }
 ]

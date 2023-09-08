@@ -1,10 +1,8 @@
 import React from "react";
-import { Stack, Box, Typography } from "@mui/material";
-import { Project_P1, Project_P3 } from "./content";
-import LaunchIcon from "@mui/icons-material/Launch";
+import { Box, Typography } from "@mui/material";
 import { useSpring, animated } from "react-spring";
 
-import { rcWebsite, cryptoClone } from "./content";
+import { rcWebsite, cryptoClone, guardianNews } from "./content";
 import ProjectTemplate from "./ProjectTemplate";
 
 import "./project.css";
@@ -31,6 +29,17 @@ const Project = () => {
     resultParagraph: cryptoResultParagraph,
     result: cryptoResult,
   } = cryptoClone[0];
+
+  const {
+    title: newsTitle,
+    introParagrap: newsIntro,
+    keyFeature: newsKey,
+    tools: newsTools,
+    resultPic: newsPic,
+    link: newsLink,
+    resultParagraph: newsResultParagraph,
+    result: newsResult,
+  } = guardianNews[0];
 
   const props = useSpring({
     from: { opacity: 0 },
@@ -69,6 +78,16 @@ const Project = () => {
           link={cryptoLink}
           resultParagraph={cryptoResultParagraph}
           result={cryptoResult}
+        />
+        <ProjectTemplate
+          title={newsTitle}
+          introParagraph={newsIntro}
+          keyFeature={newsKey}
+          tools={newsTools}
+          resultPic={newsPic}
+          link={newsLink}
+          resultParagraph={newsResultParagraph}
+          result={newsResult}
         />
       </Box>
     </animated.div>
