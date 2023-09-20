@@ -190,7 +190,7 @@ export const guardianNews =[
     resultParagraph:`The website consist of four main pages including homepage, search result page, news detail
     page`,
     result: [
-      {header: "Homepage", detail: ": Partially display each cryptocurrency page"},
+      {header: "Homepage", detail: ": Partially display latest news"},
       {header: "Search Result Page", detail: ": shows the result from news keyword"},
       {header: "News Detail Page", detail: ": Provide detail of the news consisting of paragraph and picture"},
     ]
